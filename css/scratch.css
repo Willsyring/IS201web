@@ -1,0 +1,52 @@
+header {
+    background-image: url('../assets/img/Rock\ Island.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 210px;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .navbar a {
+    font-weight: bold;
+    font-size: 12px;
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;} 
+
+.text {
+  float: left;             
+  width: 45%;              
+  padding-right: 20px;     
+}
+
+.image img {
+  float: right;            
+  width: 50%; 
+  box-sizing: border-box;
+  padding: 2px; 
+  height: 50%;
+}
+
+body {
+  background-color: bisque;
+  border: 5px solid #494949;  
+  margin: 2;                
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
